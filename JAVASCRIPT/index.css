@@ -1,0 +1,141 @@
+/* .cart{
+    background-color: #0a3d55;
+    margin-top: 5px;
+}
+
+div{
+    display: flex;
+    width: 400px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+#increement {
+    background-color: #0f550a;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    transition: ease-in-out 0.5s all;
+    cursor: pointer;
+}
+#increement:hover {
+transform: scale(0.9);
+}
+
+#decreement {
+    background-color: #550a1e;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    transition: ease-in-out 0.5s all;
+    cursor: pointer;
+}
+#decreement:hover {
+    transform: scale(0.9);
+}
+
+#reset{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: ease-in-out 0.5s all;
+    cursor: pointer;
+}
+
+#reset:hover {
+    transform: scale(0.9);
+}   
+
+span{
+    font-weight: bold;
+} */
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #5563d1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #f4f4f4;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+li button {
+  background: #ff4d4d;
+  padding: 6px 10px;
+}
+
+li button:hover {
+  background: #e63939;
+}

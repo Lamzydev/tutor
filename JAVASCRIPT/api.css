@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #3c69c1;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+/* Grid container */
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+/* Product card */
+.product-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Image */
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+/* Title */
+.product-card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.product-card h4{
+  font-size: 18px;
+  color: #222;
+}
+/* Description */
+.product-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+/* Price */
+.product-card strong {
+  color: #2563eb;
+  font-size: 18px;
+}
+
+.product-card button {
+  margin: 0 auto;
+  height: 40px;
+  width: 100%;
+  display: block;
+  background-color: #2563eb;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.product-card button:hover{
+  background-color: black;
+}
